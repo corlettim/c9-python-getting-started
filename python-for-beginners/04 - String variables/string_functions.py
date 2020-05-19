@@ -8,7 +8,7 @@ print(sentence.upper())
 # lower will return the string in lowercase letters
 print(sentence.lower())
 
-# capitalize will return the string with the first letter uppercase
+# capitalize will return the string with the first letter in the whole string uppercase
 # and the rest of the string in lowercase
 print(sentence.capitalize())
 
