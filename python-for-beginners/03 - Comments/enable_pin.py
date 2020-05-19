@@ -13,4 +13,6 @@ pin = '123456'
 # Enable PIN check as listed in
 # security requirements
 enable_pin(current_user, pin)
-
+# remember that the name of the value you are passing through does not matter
+# it will fill in the parameter in the method name since a parameter is a place
+# holder for whatever value is being passed through
