@@ -1,4 +1,4 @@
-price = input('how much did you pay? ')
+price = input('How much did you pay? ')
 price = float(price)
 
 if price >= 1.00:
@@ -8,8 +8,6 @@ if price >= 1.00:
 	print('Tax rate is: ' + str(tax))
 else:
 	# Anything else we do not charge any tax
-	# All statements indented are only executed if price is NOT >= 1 
+	# All statements indented are only executed if price is NOT >= 1
 	tax = 0
 	print('Tax rate is: ' + str(tax))
-
-
