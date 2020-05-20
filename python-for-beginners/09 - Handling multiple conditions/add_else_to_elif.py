@@ -1,5 +1,6 @@
 province = input("What province do you live in? ")
-tax = 0
+# tax = 0
+# this was initially in the code but it is not necessary
 
 if province == 'Alberta':
 	tax = 0.05
