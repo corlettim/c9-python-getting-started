@@ -4,7 +4,7 @@
 
 # Ask the user for their last name
 
-# if first name is < 10 characters and last name is < 10 characters 
+# if first name is < 10 characters and last name is < 10 characters
 #       print first and last name on the jersey
 # if first name >= 10 characters long and last name is < 10 characters
 #       print first initial of first name and the entire last name
@@ -22,3 +22,18 @@
 # output: R. Ibach
 # first name: ReallyLongFirstName  last name: ReallyLongLastName
 # output: ReallyLongLastName
+
+first_name = input("Please enter your first name: ")
+last_name = input("Please enter your last name: ")
+
+# print(len(first_name))
+# print(len(last_name))
+
+if len(first_name) < 10 and len(last_name) < 10:
+    print(first_name, last_name)
+elif len(first_name) >= 10 and len(last_name) < 10:
+    print(first_name[0:1],".", last_name)
+elif len(first_name) < 10 and len(last_name) >= 10:
+    print(first_name, last_name[0:1], ".")
+else:
+    print(last_name)
